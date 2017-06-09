@@ -15,3 +15,6 @@ All dependencies are released under their own respective licenses.
 
 Most images, logos, characters, dialog, plot, and other assets taken from original games 
 are copyrights of third parties; I claim no ownership of any of the assets used on this repository.
+
+### Try it
+Play the games [https://davidcurras.github.io/js-game-class-2016](https://davidcurras.github.io/js-game-class-2016/)
