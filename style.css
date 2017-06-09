@@ -1,0 +1,64 @@
+body { 
+  margin: 0;
+  background: #333;
+}
+h1 {
+  color: #eee;
+}
+h1 img {
+  width: 100px;
+  height: 100px;
+  float: right;
+}
+header { 
+  padding: .5vw;
+  font-size: 0;
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  -ms-flex-direction: column;
+  -webkit-flex-flow: row wrap; 
+  flex-flow: row wrap; 
+  display: -webkit-box;
+  display: flex;
+}
+header div { 
+  -webkit-box-flex: auto;
+  -ms-flex: auto;
+  flex: auto; 
+  width: 200px; 
+  margin: .5vw; 
+}
+header div a,
+header div a:hover { 
+  text-decoration: none;
+}
+header div img { 
+  width: 200px;
+  height: 200px;
+}
+div.buttons {
+  display: block;
+  position: fixed;
+  top: 10px;
+  width: auto;
+  z-index: 999999999;
+}
+div.buttons{
+  left: 10px;
+}
+div.buttons a,
+div.buttons a:hover {
+  font-family: monospace;
+  font-size: 30px;
+   color: black;
+   -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+  font-weight: 900;
+  text-decoration: none;
+}
+@media screen and (max-width: 400px) {
+  header div { margin: 0; }
+  header { padding: 0; }
+  
+}
